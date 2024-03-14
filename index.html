@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+    <style>
+        body {
+            font-family: 'Helvetica', sans-serif; /* Fuente moderna */
+            line-height: 1.6;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Fondo con degradado */
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            border-radius: 10px; /* Bordes redondeados para el título */
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .boton-dinamico {
+            padding: 10px 20px;
+            font-size: 16px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: #ff6600;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #00000085;
+            transition: 0.5s;
+            position: fixed;
+            bottom: 70%;
+            left: 1%;
+        }
+        .boton-dinamico:hover { 
+            padding: 15px 30px;
+            font-size: 18px;
+            box-shadow: 0 12px #0000009a;
+            transform: translateY(-4px);
+        }
+                body {
+                    font-family: 'Helvetica', sans-serif; /* Fuente moderna */
+                    line-height: 1.6;
+                    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Fondo con degradado */
+                }
+                header {
+                    background-color: #333;
+                    color: white;
+                    padding: 10px 20px;
+                    text-align: center;
+                    border-radius: 10px; /* Bordes redondeados para el título */
+                }
+                section {
+                    padding: 20px;
+                    max-width: 800px;
+                    margin: auto;
+                }
+                .casa {
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    text-align: center;
+                    cursor: pointer;
+                    outline: none;
+                    color: #fff;
+                    background-color: #8d29ff;
+                    border: none;
+                    border-radius: 15px;
+                    box-shadow: 0 9px #00000085;
+                    transition: 0.5s;
+                    position: fixed;
+                    bottom: 70%;
+                    right: 1%;
+                }
+                .casa:hover { 
+                    padding: 15px 30px;
+                    font-size: 18px;
+                    box-shadow: 0 12px #0000009a;
+                    transform: translateY(-4px);
+                }
+    </style>
+    <script>
+        function redireccionar() {
+            window.location.href = 'https://manage.wix.com/dashboard/873c3065-464f-40ae-947d-e488c844f3cb/home?referralInfo=sidebar'; // Cambia esta URL por la que desees
+        }
+                function casa() {
+                    window.location.href = 'https://www.google.com/'; // Cambia esta URL por la que desees
+                }
+    </script>
+        <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    Mi Blog
+</header>
+
+<section>
+    <h1>Hola!</h1>
+    <p>¿Sabías que no es tan simple crear una página web como ir a Wix y listo?</p>
+    <!-- ... resto del contenido ... -->
+    <button onclick="redireccionar()" class="boton-dinamico">Ir a la página</button>
+</section>
+
+<section>
+     <button onclick="casa()" class="casa">Ir a casa</button>
+</section>
+
+</body>
+</html>
